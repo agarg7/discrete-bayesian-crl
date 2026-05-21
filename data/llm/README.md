@@ -56,7 +56,7 @@ G3: Who will you vote for in the House of Representatives in 2018? (1-100 Scale:
 
 ### Demographic data used:
 
-```json
+```
 gender, age, marital status, number of children, education, employment status, career, race, income, spoken languages, organizational role, number of employees, country, area, city, TSmart urbanicity, voter-base party, voter-base voter score, TSmart presidential general turnout score
 ```
 
@@ -64,12 +64,12 @@ gender, age, marital status, number of children, education, employment status, c
 
 ### System prompt:
 
-```json
+```
 You are a helpful assistant generating realistic survey respondent profiles. 
 ```
 ### User Prompt:
 
-```json
+```
 Below is a demographic profile for a random survey respondent: 
 
 {profile data from (i)}
@@ -81,7 +81,7 @@ For each belief, provide a short explanation of *why* this person holds that bel
 
 ### Sample Output: 
 
-```json
+```
 **Respondent Profile:**
 
 - **Name:** John Smith
@@ -124,7 +124,7 @@ For each belief, provide a short explanation of *why* this person holds that bel
 
 ### System prompt:
 
-```json
+```
 You are going to be given a demographic profile. Modify the person's profile with the following causal intervention: 
 
 Set {issue opinion} to {specified side}
@@ -134,13 +134,13 @@ Update their **causally downstream** beliefs and reasoning accordingly. Return a
 
 ### User Prompt:
 
-```json
+```
 {profile text from (ii)}
 ```
 
 ### Sample Output:
 
-```json
+```
 **Respondent Profile:**
 
 - **Name:** John Smith
@@ -186,7 +186,7 @@ John's views reflect his Republican stance, shaped by his personal experiences a
 
 ### System prompt:
 
-```json
+```
 You are a survey respondent in 2018. Your identity is defined strictly by the following profile:
 
 {profile text from (iii)}
@@ -196,7 +196,7 @@ You must embody a person with these attributes in your answers. You are not allo
 
 ### User Prompt:
 
-```json
+```
 Respond to these questions on a 1–100 scale (1 = strongly disagree, 100 = strongly agree):
     Trade:  
         1. When the US expands free trade, the trade-offs are worth it.
