@@ -1,3 +1,3 @@
 # Synthetic data
 
-Data set used for synthetic experiments in Section 5
+Datasets used for synthetic experiments in Section 5
